@@ -1,8 +1,18 @@
 <html>
   <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7DGZPJ11FB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7DGZPJ11FB');
+</script>
+
     <link type="text/css" rel="stylesheet" href="mycss.css">
 
-    <meta charset="utf-8" name="keywords" content="Computational Fabrication, Fabrication by Example">
+    <meta charset="utf-8" name="keywords" content="Cyberphysical systems multi-robot planning">
     <title>Eduardo Feo-Flushing</title>
     <link rel="stylesheet" href="style.css" />
 
@@ -93,19 +103,21 @@ My research focuses on the study and implementation of complex cyber-physical
 	<div class="line"></div>
 
       <div id="publications">
-          <p class="subsection">Publications</p>
+        <p class="subsection">Publications</p>
+	<tr>
           <table width="800" border="0" cellspacing="10" align="center">
             <td width=200><img class=icon src="edge.png" width="200" height="160" align=left></td>
-            <td align=left valign=top>
+            <td align=left valign=top width=400>
                 <div class=pub_title>Task offloading in edge computing for machine learning-based smart healthcare
                 </div>
                 <div class=links>[<a href="https://www.sciencedirect.com/science/article/pii/S1389128621001298">Article</a>]</div>
-                <p class=authors> M Aazam, S Zeadally, <b>E Feo Flushing</b>  </p>
+                <p class=authors> M. Aazam, S. Zeadally, <b>E. Feo Flushing</b>  </p>
                 <div class=conf>Computer Networks (2021) </div>
 		<button class="button0" onclick="toggleBibtexAazZeaFeo21()">Bibtex</button>
 
 <div id="aAazZeaFeo21" style="display: none;">
-  <pre>@inproceedings{AazZeaFeo21,
+    <pre style="white-space: pre-wrap;">
+    @inproceedings{AazZeaFeo21,
     author = {Mohammad Aazam and Sherali Zeadally and Eduardo {Feo Flushing}},
     title = {Task offloading in edge computing for machine learning-based smart healthcare},
 journal = {Computer Networks},
@@ -114,7 +126,6 @@ pages = {108019},
 year = {2021},
 issn = {1389-1286},
 doi = {https://doi.org/10.1016/j.comnet.2021.108019},
-url = {https://www.sciencedirect.com/science/article/pii/S1389128621001298},
 }
 </pre>
 </div>
@@ -130,6 +141,45 @@ function toggleBibtexAazZeaFeo21(parameter) {
 </script>
 
 	    </td>
+	</tr>
+	<tr>
+	  	                <td width=200><img class=icon src="3dplan.png" width="200" height="160" align=left></td>
+            <td align=left valign=top width=400>
+                <div class=pub_title>Prediction of Indoor Wireless Coverage from
+                3D Floor Plans Using Deep Convolutional Neural Networks
+                </div>
+                <div class=links>[<a href="Prediction_of_Indoor_Wireless_Coverage_from_3D_Floor_Plans_Using_Deep_Convolutional_Neural_Networks.pdf">PDF</a>]</div>
+                <p class=authors>Y. Ansari, N. Tiyal, <b>E. Feo-Flushing</b> and S. Razak </p>
+                <div class=conf> 2021 IEEE 46th Conference on Local Computer Networks (LCN)</div>
+		<button class="button0" onclick="toggleBibtexAnsTiyFeoRaz21()">Bibtex</button>
+
+<div id="aAnsTiyFeoRaz21" style="display: none;">
+  <pre style="white-space: pre-wrap;">
+@INPROCEEDINGS{AnsTiyFeoRaz21,
+  author={Ansari, Yaqoob and Tiyal, Nouha and Feo-Flushing, Eduardo and Razak, Saquib},
+  booktitle={IEEE 46th Conference on Local Computer Networks (LCN)},
+  title={Prediction of Indoor Wireless Coverage from 3D Floor Plans Using Deep Convolutional Neural Networks},
+  year={2021},
+  volume={},
+  number={},
+  pages={435-438},
+  doi={10.1109/LCN52139.2021.9525019}}
+</pre>
+</div>
+<script>
+function toggleBibtexAnsTiyFeoRaz21(parameter) {
+    var x= document.getElementById('aAnsTiyFeoRaz21');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+
+	    </td>
+</tr>
+
 	    </table>
 	    <!--
         </table>
