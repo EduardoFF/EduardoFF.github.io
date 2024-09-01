@@ -35,8 +35,8 @@ a:hover { color: #e86e14; }
 /*---header--*/
 #header { float: left; width: 750px; margin: 0 0 25 0; }
 #header #header_content { float: left; width: 450px; }
-#header #intro { float: left; width: 730px; font-size: 16px; line-height:150%}
-#header #intro p { float: left; width: 730px; font-size: 16; line-height:150%}
+#header #intro { float: left; width: 730px; font-size: 14px; line-height:150%}
+#header #intro p { float: left; width: 730px; font-size: 14; line-height:150%}
 .name { font-size: 60px;
         font-weight:bold;
         font-family: "Josefin Sans", sans-serif;
@@ -106,6 +106,10 @@ a:hover { color: #e86e14; }
 }
 
 .new{
+  font-size:14px;
+}
+
+.news {
   font-size:14px;
 }
 
